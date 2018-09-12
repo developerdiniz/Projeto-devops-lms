@@ -1,0 +1,36 @@
+
+		
+		img{
+		width: 150px;
+		height: 60px;
+		}
+
+
+a{
+	color: white;
+}
+
+#topo{
+
+	width: 100%;
+	height: 70px;
+	background: #000;
+}
+
+#topoCentro{
+	width: 900px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+}
+
+#topoOpcoes{
+	width: 200px;
+	height: 70px;
+	
+}
+
+body{
+	background: #808080;
+}
