@@ -9,6 +9,8 @@ function enviar(){
     var programatico = document.getElementById("programatico");
     var bibliografia = document.getElementById("bibliografia");
     var biblioteca = document.getElementById("biblioteca"); 
-
+    var pratico = document.getElementById("pratico");
+    var teorico = document.getElementById("teorico");
+    var coordenador = document.getElementById("coordenador");
 
     
