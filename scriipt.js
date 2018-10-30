@@ -7,7 +7,7 @@ function enviar(){
     var cpf = document.getElementById("CPF");
     var apelido = document.getElementById("apelido");
     var senha = document.getElementById("senha");
-   
+    var cpfim = cpf.length
 
     if (nome.value === "" && nome.value === '1234567890'){
         alert("nome invalido")
@@ -27,7 +27,7 @@ function enviar(){
     if (length(celular.value) === 9){
         console.log("celular ok");
     }
-    if (cpf.value < 11 ){
+    if (cpfim.value < 11 ){
         alert("cpf invalido");
     }
     if (apelido.value === '' && apelido.value === '1234567890'){
@@ -43,4 +43,3 @@ function enviar(){
     }
 }
 
-console.log('');
